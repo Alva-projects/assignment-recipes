@@ -1,0 +1,30 @@
+@media screen and (max-width: 320px) {
+    body {
+        padding: 10px;
+    }
+    h2 {
+        font-size: 39.6px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+    .container-first {
+        max-width: 300px;
+        background-color: lightblue;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .container-first-left {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: end;
+    }
+    .container-first-right {
+        display: block;
+        padding: 10px;
+        max-width: 300px;
+    }
+}
