@@ -1,3 +1,95 @@
+@media screen and (min-width: 1440px) {
+    body {
+        padding: 50px;
+    }
+    h2 {
+        font-size: 72px;
+        padding-top: 50px;
+    }
+
+    p {
+        font-size: 22px;
+    }
+    .container-first {
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: orange;
+    }
+    .container-first-left {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: greenyellow;
+    }
+    .container-first-left-text {
+        display: flex;
+        justify-content: center;
+        background-color: pink;
+    }
+
+    .container-arrow {
+        display: flex;
+        justify-content: start;
+    }
+    #arrow {
+        display: flex;
+        align-items: end;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    .container-first-right {
+        height: auto;
+        display: block;
+        padding-right: 30px;
+        padding-top: 30px;
+        max-width: px;
+    }    
+}
+
+
+@media screen and (max-width: 768px) {
+        body {
+        padding: 50px;
+    }
+    h2 {
+        font-size: 72px;
+        padding-top: 50px;
+    }
+
+    p {
+        font-size: 22px;
+    }
+    .container-first {
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .container-first-left {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: end;
+    }
+
+    #arrow {
+        display: none;
+    }
+
+    img {
+        max-width: 100%;
+    }
+    .container-first-right {
+        height: auto;
+        display: block;
+        padding: 10px;
+        max-width: 768px;
+    }
+}
 @media screen and (max-width: 320px) {
     body {
         padding: 10px;
@@ -10,19 +102,27 @@
         font-size: 12px;
     }
     .container-first {
-        max-width: 300px;
-        background-color: lightblue;
+        max-width: 100%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
     .container-first-left {
+        max-width: 211px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         align-items: end;
     }
+
+    #arrow {
+        display: none;
+    }
+    img {
+        max-width: 100%;
+    }
     .container-first-right {
+        height: auto;
         display: block;
         padding: 10px;
         max-width: 300px;
