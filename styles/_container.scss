@@ -11,21 +11,14 @@
     p {
         font-size: 22px;
     }
-
-
-
-
-
-
-
-
-
+    .container-page-1 {
+        max-width: 1500px;
+    }
 
     .left-page-desktop {
         display: block;
     }
     .container-first {
-        max-width: 100%;
         display: flex;
         background-color: orange;
     }
@@ -46,22 +39,11 @@
         align-items: end;
     }
 
-
-
-
-
-
-
-
-
-
     #nav-dots {
         display: none;
     }
 
-    img {
-        width: 100%;
-    }
+   
 
     .container-first-right {
         height: auto;
