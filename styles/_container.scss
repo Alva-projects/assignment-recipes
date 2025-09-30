@@ -1,8 +1,4 @@
 @media screen and (min-width: 1000px) {
-    body {
-        padding: 50px;
-        display: flex;
-    }
     h2 {
         font-size: 72px;
         padding-top: 20px;
@@ -12,25 +8,32 @@
         font-size: 22px;
     }
     .container-page-1 {
+        padding: 50px;
         max-width: 1500px;
+        width: 100%; 
+        display: flex; 
+        justify-content: space-evenly;
     }
 
     .left-page-desktop {
+        padding-right: 50px;
+        max-width: 1000px;
         display: block;
     }
     .container-first {
         display: flex;
-        background-color: orange;
+        max-width: 1000px;
+        width: 100%;
     }
     .container-first-left {
+        padding-top: 50px;
         max-width: 390px ;
         display: flex;
         flex-wrap: wrap;
-        background-color: greenyellow;
     }
     .container-first-left-text {
+        max-width: 416px;
         display: flex;
-        background-color: pink;
     }
 
     .container-arrow {
@@ -49,15 +52,16 @@
         height: auto;
         display: block;
         padding-top: 30px;
-        max-width: px;
+        max-width: 800px;
+        width: 100%;
     }    
 }
 
 @media screen and (min-device-width: 769px) and (max-device-width: 999px) {
     body {
         padding: 50px;
-        color: red;
     }
+
     h2 {
         font-size: 62px;
         padding-top: 50px;
@@ -66,6 +70,7 @@
     p {
         font-size: 22px;
     }
+
     .container-first {
         max-width: 100%;
         display: flex;
@@ -73,6 +78,8 @@
         justify-content: center;
     }
     .container-first-left {
+        max-width: 500px;
+        width: 100%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -89,11 +96,12 @@
     }
 
     img {
-        max-width: 100%;
+        width: 100%;
     }
     .container-first-right {
         height: auto;
-        display: block;
+        display: flex;
+        justify-content: center;
         padding: 10px;
         max-width: 768px;
     }
@@ -143,9 +151,10 @@
         max-width: 768px;
     }
 }
-@media screen and (max-width: 320px) {
+
+@media screen and (max-width: 360px) {
     body {
-        padding: 10px;
+        padding: 0px;
     }
     h2 {
         font-size: 39.6px;
@@ -161,11 +170,13 @@
         justify-content: center;
     }
     .container-first-left {
-        max-width: 211px;
+        max-height: 300px;
+        height: 100%;
+        max-width: 220px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        align-items: end;
+        align-items: start;
     }
 
     #arrow {
@@ -177,7 +188,7 @@
     .container-first-right {
         height: auto;
         display: block;
-        padding: 10px;
+        padding: 0px;
         max-width: 300px;
     }
 }
