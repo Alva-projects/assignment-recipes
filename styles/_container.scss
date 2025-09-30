@@ -53,6 +53,51 @@
     }    
 }
 
+@media screen and (min-device-width: 769px) and (max-device-width: 999px) {
+    body {
+        padding: 50px;
+        color: red;
+    }
+    h2 {
+        font-size: 62px;
+        padding-top: 50px;
+    }
+
+    p {
+        font-size: 22px;
+    }
+    .container-first {
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .container-first-left {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: end;
+        text-align: center;
+    }
+
+    .container-first-left-text {
+        padding-left: 20px;
+    }
+
+    #arrow {
+        display: none;
+    }
+
+    img {
+        max-width: 100%;
+    }
+    .container-first-right {
+        height: auto;
+        display: block;
+        padding: 10px;
+        max-width: 768px;
+    }
+}
 
 @media screen and (max-width: 768px) {
         body {
