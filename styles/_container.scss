@@ -1,50 +1,71 @@
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1000px) {
     body {
         padding: 50px;
+        display: flex;
     }
     h2 {
         font-size: 72px;
-        padding-top: 50px;
+        padding-top: 20px;
     }
 
     p {
         font-size: 22px;
     }
+
+
+
+
+
+
+
+
+
+
+    .left-page-desktop {
+        display: block;
+    }
     .container-first {
         max-width: 100%;
         display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
         background-color: orange;
     }
     .container-first-left {
+        max-width: 390px ;
         display: flex;
         flex-wrap: wrap;
         background-color: greenyellow;
     }
     .container-first-left-text {
         display: flex;
-        justify-content: center;
         background-color: pink;
     }
 
     .container-arrow {
         display: flex;
         justify-content: start;
-    }
-    #arrow {
-        display: flex;
         align-items: end;
     }
 
+
+
+
+
+
+
+
+
+
+    #nav-dots {
+        display: none;
+    }
+
     img {
-        max-width: 100%;
+        width: 100%;
     }
 
     .container-first-right {
         height: auto;
         display: block;
-        padding-right: 30px;
         padding-top: 30px;
         max-width: px;
     }    
@@ -74,6 +95,11 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: end;
+        text-align: center;
+    }
+
+    .container-first-left-text {
+        padding-left: 20px;
     }
 
     #arrow {
