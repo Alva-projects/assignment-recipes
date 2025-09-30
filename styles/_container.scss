@@ -9,7 +9,7 @@
     }
     .container-page-1 {
         padding: 50px;
-        max-width: 1500px;
+        max-width: 2500px;
         width: 100%; 
         display: flex; 
         justify-content: space-evenly;
@@ -45,8 +45,6 @@
     #nav-dots {
         display: none;
     }
-
-   
 
     .container-first-right {
         height: auto;
@@ -108,9 +106,6 @@
 }
 
 @media screen and (max-width: 768px) {
-        body {
-        padding: 50px;
-    }
     h2 {
         font-size: 72px;
         padding-top: 50px;
@@ -119,8 +114,14 @@
     p {
         font-size: 22px;
     }
+
+    .container-page-1 {
+        max-width: 500px;
+        width: 100%;
+    }
     .container-first {
-        max-width: 100%;
+        width: 100%;
+        max-width: 570px;        
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -162,6 +163,12 @@
 
     p {
         font-size: 12px;
+    }
+    
+    .container-page-1 {
+        max-width: 300px;
+        width: 100%;
+
     }
     .container-first {
         max-width: 100%;
